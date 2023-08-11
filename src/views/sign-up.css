@@ -1,0 +1,138 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(29 75 144);;
+}
+.sign-up-container1 {
+  flex: 0 0 auto;
+  width: 423px;
+  height: 513px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgb(255,255,255);;
+}
+.sign-up-text {
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 40px;
+  font-weight: 500;
+}
+.sign-up-text1 {
+  top: 92px;
+  left: 40px;
+  position: absolute;
+}
+.sign-up-textinput {
+  top: 117px;
+  left: 40px;
+  right: 40px;
+  width: 356px;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-text2 {
+  top: 252px;
+  left: 40px;
+  position: absolute;
+}
+.sign-up-textinput1 {
+  top: 277px;
+  left: 40px;
+  right: 40px;
+  width: 350px;
+  position: absolute;
+}
+.sign-up-text3 {
+  top: 172px;
+  left: 40px;
+  position: absolute;
+}
+.sign-up-textinput2 {
+  top: 197px;
+  left: 40px;
+  right: 40px;
+  width: 351px;
+  position: absolute;
+}
+.sign-up-checkbox {
+  top: 332px;
+  left: 40px;
+  position: absolute;
+}
+.sign-up-text4 {
+  top: 329px;
+  left: 60px;
+  position: absolute;
+}
+.sign-up-button {
+  top: 376px;
+  left: 40px;
+  color: rgb(255,255,255);;
+  right: 40px;
+  width: 350px;
+  margin: auto;
+  position: absolute;
+  background-color: rgb(29 75 144);;
+}
+.sign-up-text5 {
+  left: 100px;
+  width: 200px;
+  bottom: 62px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+}
+.sign-up-navlink {
+  left: 300px;
+  color: #0645ad;
+  bottom: 62px;
+  position: absolute;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .sign-up-text {
+    top: 49px;
+    left: 81px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-threeunits);
+    font-weight: 600;
+  }
+  .sign-up-text1 {
+    top: 154px;
+    left: 11px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .sign-up-text2 {
+    top: 154px;
+    left: 11px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .sign-up-text3 {
+    top: 154px;
+    left: 11px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
